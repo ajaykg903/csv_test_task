@@ -10,4 +10,4 @@ Parses input.csv and produces output.csv as the result
 
 Dependencies csv - Ruby's built-in CSV library. geocoder - For fetching GEO coordinates. Testing To run the test suite, execute:
 
-bash Copy code bundle exec rspec Code Structure cli.rb: Main script implementing CSV validation and GEO coordinates fetching. csv_validator.rb: Module for validating CSV rows. geo_coordinates_fetcher.rb: Module for fetching GEO coordinates. cli_spec.rb: RSpec tests for the CLI functionality.
+bash Copy code bundle exec rspec Code Structure cli.rb: Main script implementing CSV validation and GEO coordinates fetching. cli_spec.rb: RSpec tests for the CLI functionality.
